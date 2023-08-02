@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise resolutions</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="main-container">
+        <h1>Exercise resolutions</h1>
+        <ul>
+            <li><a href="#ex1" class="open-modal">Exercise 1: Simple Calculator</a></li>
+            <li><a href="#ex2" class="open-modal">Exercise 2: Prime Numbers</a></li>
+            <li><a href="#ex3" class="open-modal">Exercise 3: Factorial</a></li>
+            <li><a href="#ex4" class="open-modal">Exercise 4: Palindrome</a></li>
+            <li><a href="#ex5" class="open-modal">Exercise 5: Table</a></li>
+            <li><a href="#ex6" class="open-modal">Exercise 6: Vowel Counter</a></li>
+            <li><a href="#ex7" class="open-modal">Exercise 7: Grade Average</a></li>
+            <li><a href="#ex8" class="open-modal">Exercise 8: Interest Calculation</a></li>
+        </ul>
+    </div>
+
+    <!-- Exercise 1 -->
+    <div id="ex1" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div id="exercise1" class="exercise-content">
+                <h2>Exercise 1: Simple Calculator</h2>
+                <form id="calc-form">
+                    <input type="number" id="num1" placeholder="First number" required>
+                    <input type="text" id="operator" placeholder="Operator" required>
+                    <input type="number" id="num2" placeholder="Second number" required>
+                    <input type="submit" value="Calculate">
+                </form>
+                <p id="calc-result"></p>
+            </div>
+        </div>
+    </div>
+    <!-- END Exercise 1 -->
+
+    <!-- Exercise 2-->
+    <div id="ex2" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div id="exercise2" class="exercise-content">
+                <h2>Exercise 2: Prime Numbers</h2>
+                <form id="prime-form">
+                    <input type="number" id="prime" placeholder="Number" required>
+                    <input type="submit" value="Verify">
+                </form>
+                <p id="prime-result"></p>
+            </div>
+        </div>
+    </div>
+    <!-- END Exercise 2-->
+
+    <!-- Exercise 3-->
+    <div id="ex3" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div id="exercise3" class="exercise-content">
+                <h2>Exercise 3: Factorial</h2>
+                <form id="factorial-form">
+                    <input type="number" id="factorial" placeholder="Number" required>
+                    <input type="submit" value="Calculate">
+                </form>
+                <p id="factorial-result"></p>
+            </div>
+        </div>
+    </div>
+    <!-- END Exercise 3-->
+
+    <!-- Exercise 4-->
+    <div id="ex4" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div id="exercise4" class="exercise-content">
+                <h2>Exercise 4: Palindrome</h2>
+                <form id="palindrome-form">
+                    <input type="text" id="word" placeholder="Word" required>
+                    <input type="submit" value="Verify">
+                </form>
+                <p id="palindrome-result"></p>
+            </div>
+        </div>
+    </div>
+    <!-- END Exercise 4-->
+
+    <!-- Exercise 5-->
+    <div id="ex5" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div id="exercise5" class="exercise-content">
+                <h2>Exercise 5: Table</h2>
+                <form id="table-form">
+                    <input type="number" id="table" placeholder="Number" required>
+                    <input type="submit" value="Generate">
+                </form>
+                <ul id="table-result"></ul>
+            </div>
+        </div>
+    </div>
+    <!-- END Exercise 5-->
+
+    <!-- Exercise 6-->
+    <div id="ex6" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div id="exercise6" class="exercise-content">
+                <h2>Exercise 6: Vowel Counter</h2>
+                <form id="vowel-form">
+                    <input type="text" id="sentence" placeholder="Phrase" required>
+                    <input type="submit" value="Count">
+                </form>
+                <p id="vowel-result"></p>
+            </div>
+        </div>
+    </div>
+
+    <!-- END Exercise 6-->
+
+    <!-- Exercise 7-->
+    <div id="ex7" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div id="exercise7" class="exercise-content">
+                <h2>Exercise 7: Grade Average</h2>
+                <form id="average-form">
+                    <input type="number" id="grade1" placeholder="Note 1" step="0.01" required>
+                    <input type="number" id="grade2" placeholder="Note 2" step="0.01" required>
+                    <input type="number" id="grade3" placeholder="Note 3" step="0.01" required>
+                    <input type="submit" value="Calcular">
+                </form>
+                <p id="average-result"></p>
+            </div>
+        </div>
+    </div>
+    <!-- END Exercise 7-->
+
+    <!-- Exercise 8-->
+    <div id="ex8" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div id="exercise8" class="exercise-content">
+                <h2>Exercise 8: Interest Calculation</h2>
+                <form id="interest-form">
+                    <input type="number" id="initial-capital" placeholder="Initial capital" step="0.1" required>
+                    <input type="number" id="interest-rate" placeholder="Rate(% per month)" step="0.01" required>
+                    <input type="number" id="investment-time" placeholder="Investment time(months)" required>
+                    <input type="submit" value="Calcular">
+                </form>
+                <p id="interest-result"></p>
+            </div>
+        </div>
+    </div>
+    <!-- END Exercise 8-->
+
+    <script src="scripts.js"></script>
+</body>
+
+</html>
